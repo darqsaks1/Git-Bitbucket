@@ -1,0 +1,30 @@
+.sort-section {
+  position: relative;
+  width: 215px;
+  height: 190px;
+  left: 90px;
+  top: 10px;
+  color: #ffffff;
+  .chapter {
+    width: 95px;
+    height: 48px;
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+  div {
+    width: 215px;
+    height: 33px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 48px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+  }
+}

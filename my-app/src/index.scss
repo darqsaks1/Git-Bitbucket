@@ -1,0 +1,15 @@
+@import "./components/app/app.scss";
+@import "./components/header/header.scss";
+@import "./components/list/list.scss";
+@import "./components/news/new.scss";
+@import "./components/sort/sort.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  max-height: 1080px;
+  background-color: #0b0c23;
+  color: white;
+}

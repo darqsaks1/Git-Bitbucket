@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 150px;
+  .header-icons {
+    display: inherit;
+    flex-direction: row;
+    position: relative;
+    top: -36px;
+    left: 25px;
+    .lang {
+      display: inherit;
+      justify-content: center;
+      align-items: center;
+
+      .lang-icon {
+        position: relative;
+        left: 29px;
+      }
+      .lang-selector {
+        font-family: "Exo";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 48px;
+        position: relative;
+        left: 43px;
+        bottom: -1px;
+      }
+    }
+    .logo {
+      position: relative;
+      left: 1.94%;
+      right: 88.89%;
+      top: 2.41%;
+      bottom: 94.91%;
+    }
+  }
+  .bucket-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+      position: relative;
+      right: 25px;
+      top: -36px;
+    }
+    div {
+      display: flex;
+      position: relative;
+      align-items: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      z-index: 2;
+      background-color: black;
+      right: 29px;
+      top: -42px;
+    }
+  }
+}
